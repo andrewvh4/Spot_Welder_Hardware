@@ -2446,4 +2446,8 @@ Wire Wire Line
 	3550 7300 3800 7300
 Connection ~ 2600 7300
 Connection ~ 2600 7600
+Wire Notes Line
+	5350 5950 5350 5500
+Wire Notes Line
+	4100 5500 7200 5500
 $EndSCHEMATC
