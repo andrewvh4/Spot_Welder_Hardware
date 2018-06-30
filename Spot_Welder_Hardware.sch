@@ -1024,8 +1024,8 @@ Text Notes 7850 2100 0    118  ~ 24
 Power Filtering
 Text GLabel 9150 3650 2    60   Input ~ 0
 V+
-Text Notes 2400 4750 0    118  ~ 24
-LED Indication
+Text Notes 2600 4750 0    118  ~ 24
+Indication
 Text Notes 8750 4750 0    118  ~ 24
 Microcontroller
 Text Notes 13300 4750 0    118  ~ 24
@@ -1092,7 +1092,7 @@ F 4 "Green" H 2500 5650 60  0001 C CNN "Color"
 	1    2500 5650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2500 5800 3    60   UnSpc ~ 0
+Text GLabel 2150 5850 0    60   UnSpc ~ 0
 GND
 Text GLabel 3250 5050 0    60   Input ~ 0
 Ext_Trigger
@@ -1119,7 +1119,7 @@ F 4 "Green" H 3350 5650 60  0001 C CNN "Color"
 	1    3350 5650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3350 5800 3    60   UnSpc ~ 0
+Text GLabel 2950 5850 0    60   UnSpc ~ 0
 GND
 Text GLabel 3800 5050 0    60   Input ~ 0
 +5V
@@ -1146,7 +1146,7 @@ F 4 "Green" H 3900 5650 60  0001 C CNN "Color"
 	1    3900 5650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3900 5800 3    60   UnSpc ~ 0
+Text GLabel 3750 5850 0    60   UnSpc ~ 0
 GND
 Text Notes 5900 6500 0    60   ~ 0
 Capacitor Voltage Read
@@ -1189,115 +1189,115 @@ F 3 "" H 6600 6800 50  0001 C CNN
 	1    6600 6800
 	0    1    1    0   
 $EndComp
-Text GLabel 2250 6300 0    60   Input ~ 0
+Text GLabel 2250 6200 0    60   Input ~ 0
 5V_Ind
 $Comp
 L R R?
 U 1 1 5B347D00
-P 2300 6500
-F 0 "R?" V 2380 6500 50  0000 C CNN
-F 1 "500" V 2300 6500 50  0000 C CNN
-F 2 "" V 2230 6500 50  0001 C CNN
-F 3 "" H 2300 6500 50  0001 C CNN
-	1    2300 6500
+P 2300 6400
+F 0 "R?" V 2380 6400 50  0000 C CNN
+F 1 "500" V 2300 6400 50  0000 C CNN
+F 2 "" V 2230 6400 50  0001 C CNN
+F 3 "" H 2300 6400 50  0001 C CNN
+	1    2300 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED D?
 U 1 1 5B347D07
-P 2300 6900
-F 0 "D?" H 2300 7000 50  0000 C CNN
-F 1 "5V" H 2300 6800 50  0000 C CNN
-F 2 "" H 2300 6900 50  0001 C CNN
-F 3 "" H 2300 6900 50  0001 C CNN
-F 4 "Green" H 2300 6900 60  0001 C CNN "Color"
-	1    2300 6900
+P 2300 6800
+F 0 "D?" H 2300 6900 50  0000 C CNN
+F 1 "5V" H 2300 6700 50  0000 C CNN
+F 2 "" H 2300 6800 50  0001 C CNN
+F 3 "" H 2300 6800 50  0001 C CNN
+F 4 "Green" H 2300 6800 60  0001 C CNN "Color"
+	1    2300 6800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2300 7050 3    60   UnSpc ~ 0
+Text GLabel 2300 6950 3    60   UnSpc ~ 0
 GND
-Text GLabel 2750 6300 0    60   Input ~ 0
+Text GLabel 2750 6200 0    60   Input ~ 0
 7.5V_Ind
 $Comp
 L R R?
 U 1 1 5B347E32
-P 2850 6500
-F 0 "R?" V 2930 6500 50  0000 C CNN
-F 1 "500" V 2850 6500 50  0000 C CNN
-F 2 "" V 2780 6500 50  0001 C CNN
-F 3 "" H 2850 6500 50  0001 C CNN
-	1    2850 6500
+P 2850 6400
+F 0 "R?" V 2930 6400 50  0000 C CNN
+F 1 "500" V 2850 6400 50  0000 C CNN
+F 2 "" V 2780 6400 50  0001 C CNN
+F 3 "" H 2850 6400 50  0001 C CNN
+	1    2850 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED D?
 U 1 1 5B347E39
-P 2850 6900
-F 0 "D?" H 2850 7000 50  0000 C CNN
-F 1 "7.5V" H 2850 6800 50  0000 C CNN
-F 2 "" H 2850 6900 50  0001 C CNN
-F 3 "" H 2850 6900 50  0001 C CNN
-F 4 "Green" H 2850 6900 60  0001 C CNN "Color"
-	1    2850 6900
+P 2850 6800
+F 0 "D?" H 2850 6900 50  0000 C CNN
+F 1 "7.5V" H 2850 6700 50  0000 C CNN
+F 2 "" H 2850 6800 50  0001 C CNN
+F 3 "" H 2850 6800 50  0001 C CNN
+F 4 "Green" H 2850 6800 60  0001 C CNN "Color"
+	1    2850 6800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 2850 7050 3    60   UnSpc ~ 0
+Text GLabel 2850 6950 3    60   UnSpc ~ 0
 GND
-Text GLabel 3250 6300 0    60   Input ~ 0
+Text GLabel 3250 6200 0    60   Input ~ 0
 10V_Ind
 $Comp
 L R R?
 U 1 1 5B347E44
-P 3350 6500
-F 0 "R?" V 3430 6500 50  0000 C CNN
-F 1 "500" V 3350 6500 50  0000 C CNN
-F 2 "" V 3280 6500 50  0001 C CNN
-F 3 "" H 3350 6500 50  0001 C CNN
-	1    3350 6500
+P 3350 6400
+F 0 "R?" V 3430 6400 50  0000 C CNN
+F 1 "500" V 3350 6400 50  0000 C CNN
+F 2 "" V 3280 6400 50  0001 C CNN
+F 3 "" H 3350 6400 50  0001 C CNN
+	1    3350 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED D?
 U 1 1 5B347E4B
-P 3350 6900
-F 0 "D?" H 3350 7000 50  0000 C CNN
-F 1 "10V" H 3350 6800 50  0000 C CNN
-F 2 "" H 3350 6900 50  0001 C CNN
-F 3 "" H 3350 6900 50  0001 C CNN
-F 4 "Green" H 3350 6900 60  0001 C CNN "Color"
-	1    3350 6900
+P 3350 6800
+F 0 "D?" H 3350 6900 50  0000 C CNN
+F 1 "10V" H 3350 6700 50  0000 C CNN
+F 2 "" H 3350 6800 50  0001 C CNN
+F 3 "" H 3350 6800 50  0001 C CNN
+F 4 "Green" H 3350 6800 60  0001 C CNN "Color"
+	1    3350 6800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3350 7050 3    60   UnSpc ~ 0
+Text GLabel 3350 6950 3    60   UnSpc ~ 0
 GND
-Text GLabel 3850 6300 0    60   Input ~ 0
+Text GLabel 3850 6200 0    60   Input ~ 0
 12.5V_Ind
 $Comp
 L R R?
 U 1 1 5B34A768
-P 3950 6500
-F 0 "R?" V 4030 6500 50  0000 C CNN
-F 1 "500" V 3950 6500 50  0000 C CNN
-F 2 "" V 3880 6500 50  0001 C CNN
-F 3 "" H 3950 6500 50  0001 C CNN
-	1    3950 6500
+P 3950 6400
+F 0 "R?" V 4030 6400 50  0000 C CNN
+F 1 "500" V 3950 6400 50  0000 C CNN
+F 2 "" V 3880 6400 50  0001 C CNN
+F 3 "" H 3950 6400 50  0001 C CNN
+	1    3950 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L LED D?
 U 1 1 5B34A76F
-P 3950 6900
-F 0 "D?" H 3950 7000 50  0000 C CNN
-F 1 "12.5V" H 3950 6800 50  0000 C CNN
-F 2 "" H 3950 6900 50  0001 C CNN
-F 3 "" H 3950 6900 50  0001 C CNN
-F 4 "Green" H 3950 6900 60  0001 C CNN "Color"
-	1    3950 6900
+P 3950 6800
+F 0 "D?" H 3950 6900 50  0000 C CNN
+F 1 "12.5V" H 3950 6700 50  0000 C CNN
+F 2 "" H 3950 6800 50  0001 C CNN
+F 3 "" H 3950 6800 50  0001 C CNN
+F 4 "Green" H 3950 6800 60  0001 C CNN "Color"
+	1    3950 6800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3950 7050 3    60   UnSpc ~ 0
+Text GLabel 3950 6950 3    60   UnSpc ~ 0
 GND
-Text Notes 2500 6150 0    60   ~ 0
+Text Notes 2500 6050 0    60   ~ 0
 Voltage Indication
 Text Notes 3000 4250 0    60   ~ 0
 ToDo: Find capacitance
@@ -1366,30 +1366,30 @@ F 3 "" H 10750 4250 50  0001 C CNN
 $EndComp
 Text GLabel 11250 4450 2    60   UnSpc ~ 0
 GND
-Text GLabel 4800 5900 2    60   Output ~ 0
+Text GLabel 4800 5750 2    60   Output ~ 0
 Pulse_Out
-Text GLabel 4400 5900 0    60   Input ~ 0
+Text GLabel 4400 5750 0    60   Input ~ 0
 +5V
-Text Notes 4350 5750 0    60   ~ 0
+Text Notes 4350 5600 0    60   ~ 0
 Trigger Override
 Text Notes 5150 4750 0    118  ~ 24
 Interface
 $Comp
 L SW_SPST SW?
 U 1 1 5B37438C
-P 5800 5900
-F 0 "SW?" H 5800 6025 50  0000 C CNN
-F 1 "Lead Voltage Trigger" H 5800 5800 50  0000 C CNN
-F 2 "" H 5800 5900 50  0001 C CNN
-F 3 "" H 5800 5900 50  0001 C CNN
-	1    5800 5900
+P 5800 5750
+F 0 "SW?" H 5800 5875 50  0000 C CNN
+F 1 "Lead Voltage Trigger" H 5800 5650 50  0000 C CNN
+F 2 "" H 5800 5750 50  0001 C CNN
+F 3 "" H 5800 5750 50  0001 C CNN
+	1    5800 5750
 	1    0    0    -1  
 $EndComp
-Text Notes 6000 5800 0    60   ~ 0
+Text Notes 6000 5650 0    60   ~ 0
 Lead-Voltage Trigger
-Text GLabel 5600 5900 0    60   Input ~ 0
+Text GLabel 5600 5750 0    60   Input ~ 0
 V+
-Text GLabel 6150 5900 2    60   Output ~ 0
+Text GLabel 6150 5750 2    60   Output ~ 0
 Lead_Voltage_Trigger
 Text GLabel 7700 5100 0    60   Input ~ 0
 +5V
@@ -1491,7 +1491,7 @@ Text GLabel 10400 7200 2    60   Output ~ 0
 Pulse_Out
 Text GLabel 10400 7400 2    60   Input ~ 0
 Lead_Voltage_Trigger
-Text Notes 6750 6050 0    20   ~ 0
+Text Notes 6750 5900 0    20   ~ 0
 Used to toggle\nlead voltage trigger mode
 Text GLabel 10400 5100 2    60   Input ~ 0
 5V_Ind
@@ -1719,32 +1719,32 @@ D7
 $Comp
 L SW_Push SW?
 U 1 1 5B36DB85
-P 4600 5900
-F 0 "SW?" H 4650 6000 50  0000 L CNN
-F 1 "SW_Push" H 4600 5840 50  0000 C CNN
-F 2 "" H 4600 6100 50  0001 C CNN
-F 3 "" H 4600 6100 50  0001 C CNN
-	1    4600 5900
+P 4600 5750
+F 0 "SW?" H 4650 5850 50  0000 L CNN
+F 1 "SW_Push" H 4600 5690 50  0000 C CNN
+F 2 "" H 4600 5950 50  0001 C CNN
+F 3 "" H 4600 5950 50  0001 C CNN
+	1    4600 5750
 	1    0    0    -1  
 $EndComp
-Text GLabel 4400 5350 0    60   UnSpc ~ 0
+Text GLabel 4400 5200 0    60   UnSpc ~ 0
 GND
 Text GLabel 5700 3900 2    60   Input ~ 0
 Conn_GND
-Text GLabel 4800 5450 2    60   Output ~ 0
+Text GLabel 4800 5300 2    60   Output ~ 0
 Conn_GND
-Text GLabel 5800 5250 2    60   Input ~ 0
+Text GLabel 5800 5100 2    60   Input ~ 0
 VS
 $Comp
 L R R?
 U 1 1 5B421A9D
-P 4950 5250
-F 0 "R?" V 4850 5250 50  0000 C CNN
-F 1 "5" V 4950 5250 50  0000 C CNN
-F 2 "" V 4880 5250 50  0001 C CNN
-F 3 "" H 4950 5250 50  0001 C CNN
-F 4 "YAG1224CT-ND" V 4950 5250 60  0001 C CNN "Part Number"
-	1    4950 5250
+P 4950 5100
+F 0 "R?" V 4850 5100 50  0000 C CNN
+F 1 "5" V 4950 5100 50  0000 C CNN
+F 2 "" V 4880 5100 50  0001 C CNN
+F 3 "" H 4950 5100 50  0001 C CNN
+F 4 "YAG1224CT-ND" V 4950 5100 60  0001 C CNN "Part Number"
+	1    4950 5100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1774,7 +1774,7 @@ Text Notes 2700 4900 0    60   ~ 0
 External Trigger
 Text Notes 2050 4900 0    60   ~ 0
 Trigger
-Text Notes 5000 6250 0    118  ~ 24
+Text Notes 5000 6150 0    118  ~ 24
 Voltage Read
 $Comp
 L FAN3122TMXCT-ND U?
@@ -1906,7 +1906,7 @@ Wire Wire Line
 Wire Wire Line
 	12500 5850 12600 5850
 Wire Wire Line
-	6000 5900 6150 5900
+	6000 5750 6150 5750
 Wire Wire Line
 	2150 2700 4850 2700
 Wire Wire Line
@@ -1929,27 +1929,27 @@ Wire Wire Line
 Connection ~ 8200 4250
 Connection ~ 8200 3650
 Wire Wire Line
-	3950 6650 3950 6750
+	3950 6550 3950 6650
 Wire Wire Line
-	3950 6300 3950 6350
+	3950 6200 3950 6250
 Wire Wire Line
-	3850 6300 3950 6300
+	3850 6200 3950 6200
 Wire Wire Line
-	3350 6650 3350 6750
+	3350 6550 3350 6650
 Wire Wire Line
-	3350 6300 3350 6350
+	3350 6200 3350 6250
 Wire Wire Line
-	3250 6300 3350 6300
+	3250 6200 3350 6200
 Wire Wire Line
-	2850 6650 2850 6750
+	2850 6550 2850 6650
 Wire Wire Line
-	2850 6300 2850 6350
+	2850 6200 2850 6250
 Wire Wire Line
-	2750 6300 2850 6300
+	2750 6200 2850 6200
 Wire Wire Line
-	2300 6650 2300 6750
+	2300 6550 2300 6650
 Wire Wire Line
-	2300 6300 2300 6350
+	2300 6200 2300 6250
 Connection ~ 6300 7050
 Wire Wire Line
 	5950 7050 6600 7050
@@ -2194,17 +2194,11 @@ Wire Notes Line
 Wire Notes Line
 	7200 1900 7200 7700
 Wire Notes Line
-	3500 4800 3500 6050
-Wire Notes Line
-	2650 4800 2650 6050
-Wire Notes Line
 	4100 4550 4100 7700
 Wire Notes Line
 	1850 1900 1850 7700
 Wire Wire Line
-	2250 6300 2300 6300
-Wire Notes Line
-	1850 6050 7200 6050
+	2250 6200 2300 6200
 Wire Wire Line
 	14350 4050 14350 4150
 Connection ~ 13250 4050
@@ -2262,9 +2256,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 6600 5350 6650
 Wire Notes Line
-	4100 6300 7200 6300
-Wire Notes Line
-	5650 6300 5650 7700
+	5650 6200 5650 7700
 Wire Notes Line
 	15300 7700 15300 1900
 Wire Notes Line
@@ -2272,12 +2264,12 @@ Wire Notes Line
 $Comp
 L SW_SPDT SW?
 U 1 1 5B3B77AE
-P 4600 5350
-F 0 "SW?" H 4600 5520 50  0000 C CNN
-F 1 "SW_SPDT" H 4600 5150 50  0000 C CNN
-F 2 "" H 4600 5350 50  0001 C CNN
-F 3 "" H 4600 5350 50  0001 C CNN
-	1    4600 5350
+P 4600 5200
+F 0 "SW?" H 4600 5370 50  0000 C CNN
+F 1 "SW_SPDT" H 4600 5000 50  0000 C CNN
+F 2 "" H 4600 5200 50  0001 C CNN
+F 3 "" H 4600 5200 50  0001 C CNN
+	1    4600 5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2313,36 +2305,34 @@ F 3 "" H 7950 3100 50  0001 C CNN
 $EndComp
 Text Notes 6850 2600 0    24   ~ 0
 Active Low\n
-Text Notes 4200 5150 0    20   ~ 0
+Text Notes 4200 5000 0    20   ~ 0
 Safety Short VS to Ground
-Text Notes 5550 5450 0    20   ~ 0
+Text Notes 5550 5300 0    20   ~ 0
 at 15Ohm and 1.4F, t = 10s\n                    5t = 50s\nAt 15V, each resistor will carry 5W
 $Comp
 L R R?
 U 1 1 5B389731
-P 5300 5250
-F 0 "R?" V 5200 5250 50  0000 C CNN
-F 1 "5" V 5300 5250 50  0000 C CNN
-F 2 "" V 5230 5250 50  0001 C CNN
-F 3 "" H 5300 5250 50  0001 C CNN
-F 4 "YAG1224CT-ND" V 5300 5250 60  0001 C CNN "Part Number"
-	1    5300 5250
+P 5300 5100
+F 0 "R?" V 5200 5100 50  0000 C CNN
+F 1 "5" V 5300 5100 50  0000 C CNN
+F 2 "" V 5230 5100 50  0001 C CNN
+F 3 "" H 5300 5100 50  0001 C CNN
+F 4 "YAG1224CT-ND" V 5300 5100 60  0001 C CNN "Part Number"
+	1    5300 5100
 	0    1    1    0   
 $EndComp
 $Comp
 L R R?
 U 1 1 5B3898D5
-P 5650 5250
-F 0 "R?" V 5550 5250 50  0000 C CNN
-F 1 "5" V 5650 5250 50  0000 C CNN
-F 2 "" V 5580 5250 50  0001 C CNN
-F 3 "" H 5650 5250 50  0001 C CNN
-F 4 "YAG1224CT-ND" V 5650 5250 60  0001 C CNN "Part Number"
-	1    5650 5250
+P 5650 5100
+F 0 "R?" V 5550 5100 50  0000 C CNN
+F 1 "5" V 5650 5100 50  0000 C CNN
+F 2 "" V 5580 5100 50  0001 C CNN
+F 3 "" H 5650 5100 50  0001 C CNN
+F 4 "YAG1224CT-ND" V 5650 5100 60  0001 C CNN "Part Number"
+	1    5650 5100
 	0    1    1    0   
 $EndComp
-Wire Notes Line
-	4100 5650 7200 5650
 $Comp
 L CP1 C?
 U 1 1 5B390A75
@@ -2369,9 +2359,9 @@ F 4 "B0520LW-FDICT-ND" H 8900 3650 60  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 5250 5150 5250
+	5100 5100 5150 5100
 Wire Wire Line
-	5450 5250 5500 5250
+	5450 5100 5500 5100
 $Comp
 L R R?
 U 1 1 5B39B084
@@ -2385,4 +2375,74 @@ F 3 "" H 8700 3800 50  0001 C CNN
 $EndComp
 Connection ~ 8700 3650
 Connection ~ 8700 3950
+Wire Wire Line
+	2500 5800 2500 5850
+Wire Wire Line
+	2500 5850 2150 5850
+Wire Wire Line
+	3350 5800 3350 5850
+Wire Wire Line
+	3350 5850 2950 5850
+Wire Wire Line
+	3900 5800 3900 5850
+Wire Wire Line
+	3900 5850 3750 5850
+Wire Notes Line
+	1850 5950 7200 5950
+Wire Notes Line
+	4100 6200 7200 6200
+Wire Notes Line
+	4100 7200 1850 7200
+Text GLabel 10400 7100 2    60   Output ~ 0
+Buzzer
+$Comp
+L Q_NMOS_GSD Q?
+U 1 1 5B3B44D9
+P 2950 7400
+F 0 "Q?" V 2750 7450 50  0000 L CNN
+F 1 "Q_NMOS_GSD" V 2900 7150 50  0001 L CNN
+F 2 "" H 3150 7500 50  0001 C CNN
+F 3 "" H 2950 7400 50  0001 C CNN
+F 4 "2N7002PW" V 2950 7400 60  0001 C CNN "Part Number"
+	1    2950 7400
+	0    1    -1   0   
+$EndComp
+Text GLabel 2350 7600 0    60   Input ~ 0
+Buzzer
+Text GLabel 2350 7300 0    60   UnSpc ~ 0
+GND
+Text GLabel 3800 7300 2    60   Input ~ 0
++5V
+$Comp
+L Buzzer BZ?
+U 1 1 5B3B52DF
+P 3450 7400
+F 0 "BZ?" V 3600 7450 50  0000 L CNN
+F 1 "Buzzer" V 3600 7050 50  0000 L CNN
+F 2 "" V 3425 7500 50  0001 C CNN
+F 3 "" V 3425 7500 50  0001 C CNN
+	1    3450 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5B3B69DD
+P 2600 7450
+F 0 "R?" V 2680 7450 50  0000 C CNN
+F 1 "10k" V 2600 7450 50  0000 C CNN
+F 2 "" V 2530 7450 50  0001 C CNN
+F 3 "" H 2600 7450 50  0001 C CNN
+	1    2600 7450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2350 7600 2950 7600
+Wire Wire Line
+	2350 7300 2750 7300
+Wire Wire Line
+	3150 7300 3350 7300
+Wire Wire Line
+	3550 7300 3800 7300
+Connection ~ 2600 7300
+Connection ~ 2600 7600
 $EndSCHEMATC
