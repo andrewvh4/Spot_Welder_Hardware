@@ -1690,7 +1690,7 @@ F 4 "YAG1224CT-ND" V 5400 5100 60  0001 C CNN "Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Molex_SL_3 Conn4
+L MRDT_Connectors:Molex_SL_03 Conn4
 U 1 1 5B352E0B
 P 6400 2650
 F 0 "Conn4" H 6450 2600 60  0001 C CNN
