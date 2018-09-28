@@ -1336,8 +1336,6 @@ F 4 "CKN10358-ND" H 5800 5750 60  0001 C CNN "Part Number"
 $EndComp
 Text Notes 6000 5650 0    60   ~ 0
 Lead-Voltage Trigger
-Text GLabel 5600 5750 0    60   Input ~ 0
-V+
 Text GLabel 6150 5750 2    60   Output ~ 0
 Lead_Voltage_Trigger
 Text GLabel 7700 5100 0    60   Input ~ 0
@@ -2851,4 +2849,6 @@ F 3 "" H 5150 3150 60  0001 C CNN
 	2    5300 3700
 	1    0    0    -1  
 $EndComp
+Text GLabel 5600 5750 0    60   Input ~ 0
++5V
 $EndSCHEMATC
