@@ -1431,13 +1431,13 @@ Text GLabel 10400 7400 2    60   Input ~ 0
 Lead_Voltage_Trigger
 Text Notes 6750 5900 0    20   ~ 0
 Used to toggle\nlead voltage trigger mode
-Text GLabel 10400 5100 2    60   Input ~ 0
+Text GLabel 10400 5500 2    60   Input ~ 0
 5V_Ind
-Text GLabel 10400 5200 2    60   Input ~ 0
+Text GLabel 10400 5400 2    60   Input ~ 0
 7.5V_Ind
 Text GLabel 10400 5300 2    60   Input ~ 0
 10V_Ind
-Text GLabel 10400 5400 2    60   Input ~ 0
+Text GLabel 10400 5200 2    60   Input ~ 0
 12.5V_Ind
 Text Notes 10900 5450 0    60   ~ 0
 D12
@@ -2830,10 +2830,10 @@ Wire Wire Line
 Wire Wire Line
 	7950 4100 7950 4150
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L MRDT_Connectors:AndersonPP Conn3
 U 1 1 5BB3DDFC
 P 5300 4000
-F 0 "Conn?" H 5506 4387 60  0000 C CNN
+F 0 "Conn3" H 5506 4387 60  0000 C CNN
 F 1 "AndersonPP" H 5506 4281 60  0000 C CNN
 F 2 "" H 5150 3450 60  0001 C CNN
 F 3 "" H 5150 3450 60  0001 C CNN
@@ -2841,10 +2841,10 @@ F 3 "" H 5150 3450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L MRDT_Connectors:AndersonPP Conn3
 U 2 1 5BB3DF96
 P 5300 3700
-F 0 "Conn?" H 5506 4087 60  0000 C CNN
+F 0 "Conn3" H 5506 4087 60  0000 C CNN
 F 1 "AndersonPP" H 5506 3981 60  0000 C CNN
 F 2 "" H 5150 3150 60  0001 C CNN
 F 3 "" H 5150 3150 60  0001 C CNN
