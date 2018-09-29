@@ -1,0 +1,9 @@
+(module "Lead Connection" (layer F.Cu) (tedit 5BAF8F25)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "Lead Connection" (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0.0254) (size 18.288 18.288) (drill 9.144) (layers *.Cu *.Mask))
+)
