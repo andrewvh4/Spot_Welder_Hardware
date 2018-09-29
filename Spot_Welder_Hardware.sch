@@ -1305,21 +1305,21 @@ Text GLabel 10400 7400 2    60   Input ~ 0
 Lead_Voltage_Trigger
 Text Notes 6750 5900 0    20   ~ 0
 Used to toggle\nlead voltage trigger mode
-Text GLabel 10400 5500 2    60   Input ~ 0
-5V_Ind
-Text GLabel 10400 5400 2    60   Input ~ 0
-7.5V_Ind
-Text GLabel 10400 5300 2    60   Input ~ 0
-10V_Ind
 Text GLabel 10400 5200 2    60   Input ~ 0
+5V_Ind
+Text GLabel 10400 5300 2    60   Input ~ 0
+7.5V_Ind
+Text GLabel 10400 5400 2    60   Input ~ 0
+10V_Ind
+Text GLabel 10400 5500 2    60   Input ~ 0
 12.5V_Ind
-Text Notes 10900 5450 0    60   ~ 0
+Text Notes 10900 5550 0    60   ~ 0
 D12
-Text Notes 10900 5350 0    60   ~ 0
+Text Notes 10900 5450 0    60   ~ 0
 D11
-Text Notes 10900 5250 0    60   ~ 0
+Text Notes 10900 5350 0    60   ~ 0
 D10
-Text Notes 10900 5150 0    60   ~ 0
+Text Notes 10900 5250 0    60   ~ 0
 D9
 Text GLabel 10400 7300 2    60   Input ~ 0
 Ext_Trigger
@@ -2623,7 +2623,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 2450 8800 2450
 Wire Wire Line
-	8150 3450 9300 3450
+	8150 3450 8900 3450
 Connection ~ 8900 2600
 Wire Wire Line
 	8500 2450 8300 2450
@@ -2862,4 +2862,9 @@ F 3 "" H 5150 3350 60  0001 C CNN
 	2    5300 3900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8900 3150 8900 3450
+Connection ~ 8900 3450
+Wire Wire Line
+	8900 3450 9300 3450
 $EndSCHEMATC
