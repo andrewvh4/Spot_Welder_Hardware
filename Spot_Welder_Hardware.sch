@@ -2221,13 +2221,13 @@ Text Notes 2550 3750 0    60   ~ 0
 $Comp
 L Device:LED D11
 U 1 1 5B37E14A
-P 8900 3300
-F 0 "D11" H 8900 3400 50  0000 C CNN
-F 1 "Over Voltage" H 8900 3200 50  0000 C CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 8900 3300 50  0001 C CNN
-F 3 "" H 8900 3300 50  0001 C CNN
-	1    8900 3300
-	0    -1   -1   0   
+P 8150 2450
+F 0 "D11" H 8150 2550 50  0000 C CNN
+F 1 "Over Voltage" H 8150 2350 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 8150 2450 50  0001 C CNN
+F 3 "" H 8150 2450 50  0001 C CNN
+	1    8150 2450
+	-1   0    0    1   
 $EndComp
 Text Notes 6850 2600 0    24   ~ 0
 Active Low\n
@@ -2495,13 +2495,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 2700 8900 2700
 Wire Wire Line
-	9300 3450 8900 3450
-Wire Wire Line
 	8200 3100 8150 3100
 Wire Wire Line
 	8150 3100 8150 3450
 Connection ~ 8150 3450
-Connection ~ 8900 3450
 Text Label 14350 5750 0    60   ~ 0
 DTR
 Text GLabel 6650 3150 2    60   Output ~ 0
@@ -2814,8 +2811,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 3450 7800 3450
 Wire Wire Line
-	8900 3450 8150 3450
-Wire Wire Line
 	7950 3850 7950 3700
 Wire Wire Line
 	7950 3700 7550 3700
@@ -2851,4 +2846,28 @@ F 3 "" H 5150 3150 60  0001 C CNN
 $EndComp
 Text GLabel 5600 5750 0    60   Input ~ 0
 +5V
+$Comp
+L Device:R R?
+U 1 1 5BB1B4E9
+P 8650 2450
+F 0 "R?" V 8730 2450 50  0000 C CNN
+F 1 "10K" V 8650 2450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8580 2450 50  0001 C CNN
+F 3 "" H 8650 2450 50  0001 C CNN
+	1    8650 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 2600 8900 2450
+Wire Wire Line
+	8900 2450 8800 2450
+Wire Wire Line
+	8150 3450 9300 3450
+Connection ~ 8900 2600
+Wire Wire Line
+	8500 2450 8300 2450
+Wire Wire Line
+	8000 2450 7850 2450
+Wire Wire Line
+	7850 2450 7850 2600
 $EndSCHEMATC
