@@ -988,45 +988,45 @@ Text GLabel 3750 5850 0    60   UnSpc ~ 0
 GND
 Text Notes 5900 6500 0    60   ~ 0
 Capacitor Voltage Read
-Text GLabel 5950 6600 0    60   Input ~ 0
+Text GLabel 6200 6950 0    60   Input ~ 0
 V+
 $Comp
 L Device:R R15
 U 1 1 5B339706
-P 6100 6600
-F 0 "R15" V 6180 6600 50  0000 C CNN
-F 1 "3000" V 6100 6600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6030 6600 50  0001 C CNN
-F 3 "" H 6100 6600 50  0001 C CNN
-	1    6100 6600
+P 6350 6950
+F 0 "R15" V 6430 6950 50  0000 C CNN
+F 1 "3000" V 6350 6950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6280 6950 50  0001 C CNN
+F 3 "" H 6350 6950 50  0001 C CNN
+	1    6350 6950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R16
 U 1 1 5B339851
-P 6300 6800
-F 0 "R16" V 6380 6800 50  0000 C CNN
-F 1 "1000" V 6300 6800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6230 6800 50  0001 C CNN
-F 3 "" H 6300 6800 50  0001 C CNN
-	1    6300 6800
+P 6550 7150
+F 0 "R16" V 6630 7150 50  0000 C CNN
+F 1 "1000" V 6550 7150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6480 7150 50  0001 C CNN
+F 3 "" H 6550 7150 50  0001 C CNN
+	1    6550 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 5950 7050 0    60   UnSpc ~ 0
+Text GLabel 6200 7400 0    60   UnSpc ~ 0
 GND
-Text GLabel 6800 6650 3    60   Output ~ 0
+Text GLabel 6750 7000 3    60   Output ~ 0
 V_Sense
 $Comp
 L Device:D_Zener D9
 U 1 1 5B33E128
-P 6600 6800
-F 0 "D9" H 6600 6900 50  0000 C CNN
-F 1 "5V" H 6600 6700 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 6600 6800 50  0001 C CNN
-F 3 "" H 6600 6800 50  0001 C CNN
-F 4 "BZT52C5V1-FDICT-ND" H 6600 6800 60  0001 C CNN "Part Number"
-	1    6600 6800
-	0    1    1    0   
+P 6350 6700
+F 0 "D9" H 6350 6800 50  0000 C CNN
+F 1 "5V" H 6350 6600 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 6350 6700 50  0001 C CNN
+F 3 "" H 6350 6700 50  0001 C CNN
+F 4 "BZT52C5V1-FDICT-ND" H 6350 6700 60  0001 C CNN "Part Number"
+	1    6350 6700
+	1    0    0    -1  
 $EndComp
 Text GLabel 2250 6200 0    60   Input ~ 0
 5V_Ind
@@ -1151,48 +1151,36 @@ F 3 "" H 10100 2750 50  0001 C CNN
 	1    10100 2750
 	1    0    0    -1  
 $EndComp
-Text Notes 4700 6500 0    60   ~ 0
+Text Notes 4500 6500 0    60   ~ 0
 Lead Voltage Read
-Text GLabel 4500 6600 0    60   Input ~ 0
+Text GLabel 4600 6950 0    60   Input ~ 0
 VS
 $Comp
 L Device:R R10
 U 1 1 5B36668A
-P 4650 6600
-F 0 "R10" V 4730 6600 50  0000 C CNN
-F 1 "3000" V 4650 6600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4580 6600 50  0001 C CNN
-F 3 "" H 4650 6600 50  0001 C CNN
-	1    4650 6600
+P 4750 6950
+F 0 "R10" V 4830 6950 50  0000 C CNN
+F 1 "3000" V 4750 6950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4680 6950 50  0001 C CNN
+F 3 "" H 4750 6950 50  0001 C CNN
+	1    4750 6950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R11
 U 1 1 5B366690
-P 4850 6800
-F 0 "R11" V 4930 6800 50  0000 C CNN
-F 1 "1000" V 4850 6800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 4780 6800 50  0001 C CNN
-F 3 "" H 4850 6800 50  0001 C CNN
-	1    4850 6800
+P 4950 7150
+F 0 "R11" V 5030 7150 50  0000 C CNN
+F 1 "1000" V 4950 7150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4880 7150 50  0001 C CNN
+F 3 "" H 4950 7150 50  0001 C CNN
+	1    4950 7150
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 7050 0    60   UnSpc ~ 0
+Text GLabel 4600 7400 0    60   UnSpc ~ 0
 GND
-Text GLabel 5350 6650 3    60   Output ~ 0
+Text GLabel 5150 7000 3    60   Output ~ 0
 Lead_Sense
-$Comp
-L Device:D_Zener D8
-U 1 1 5B36669B
-P 5150 6800
-F 0 "D8" H 5150 6900 50  0000 C CNN
-F 1 "5V" H 5150 6700 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 5150 6800 50  0001 C CNN
-F 3 "" H 5150 6800 50  0001 C CNN
-F 4 "BZT52C5V1-FDICT-ND" H 5150 6800 60  0001 C CNN "Part Number"
-	1    5150 6800
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R27
 U 1 1 5B36C33D
@@ -1743,21 +1731,14 @@ Wire Wire Line
 	2150 2700 2350 2700
 Wire Wire Line
 	2150 2400 2350 2400
-Connection ~ 4850 7050
 Wire Wire Line
-	4500 7050 4850 7050
+	4600 7400 4950 7400
 Wire Wire Line
-	4850 6950 4850 7050
+	4950 7300 4950 7400
 Wire Wire Line
-	5150 7050 5150 6950
-Connection ~ 5150 6600
+	4900 6950 4950 6950
 Wire Wire Line
-	5150 6600 5150 6650
-Connection ~ 4850 6600
-Wire Wire Line
-	4800 6600 4850 6600
-Wire Wire Line
-	4850 6650 4850 6600
+	4950 7000 4950 6950
 Connection ~ 8200 4450
 Connection ~ 8200 3850
 Wire Wire Line
@@ -1782,21 +1763,14 @@ Wire Wire Line
 	2300 6550 2300 6650
 Wire Wire Line
 	2300 6200 2300 6250
-Connection ~ 6300 7050
 Wire Wire Line
-	5950 7050 6300 7050
+	6200 7400 6550 7400
 Wire Wire Line
-	6300 6950 6300 7050
+	6550 7300 6550 7400
 Wire Wire Line
-	6600 7050 6600 6950
-Connection ~ 6600 6600
+	6500 6950 6550 6950
 Wire Wire Line
-	6600 6600 6600 6650
-Connection ~ 6300 6600
-Wire Wire Line
-	6250 6600 6300 6600
-Wire Wire Line
-	6300 6650 6300 6600
+	6550 7000 6550 6950
 Wire Wire Line
 	3900 5400 3900 5500
 Wire Wire Line
@@ -2058,10 +2032,6 @@ Wire Notes Line
 	1850 4550 15300 4550
 Wire Notes Line
 	1850 7700 15300 7700
-Wire Wire Line
-	6800 6600 6800 6650
-Wire Wire Line
-	5350 6600 5350 6650
 Wire Notes Line
 	5650 6200 5650 7700
 Wire Notes Line
@@ -2323,18 +2293,6 @@ F 3 "" H 8350 2600 50  0001 C CNN
 	1    8350 2600
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:Q_NMOS_GDS Q3
-U 1 1 5B3E6852
-P 9200 2950
-F 0 "Q3" H 9400 3000 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 9400 2900 50  0001 L CNN
-F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 9400 3050 50  0001 C CNN
-F 3 "" H 9200 2950 50  0001 C CNN
-F 4 "PSMN2R0-30PL" H 9200 2950 60  0001 C CNN "Part Number"
-	1    9200 2950
-	1    0    0    -1  
-$EndComp
 Text GLabel 5700 3600 2    60   Output ~ 0
 V+
 Wire Notes Line
@@ -2421,21 +2379,9 @@ Wire Wire Line
 Wire Wire Line
 	12550 5700 12550 6250
 Wire Wire Line
-	4850 7050 5150 7050
-Wire Wire Line
-	5150 6600 5350 6600
-Wire Wire Line
-	4850 6600 5150 6600
-Wire Wire Line
 	8200 4450 9150 4450
 Wire Wire Line
 	8200 3850 8500 3850
-Wire Wire Line
-	6300 7050 6600 7050
-Wire Wire Line
-	6600 6600 6800 6600
-Wire Wire Line
-	6300 6600 6600 6600
 Wire Wire Line
 	8200 4150 8500 4150
 Wire Wire Line
@@ -2870,4 +2816,50 @@ F 4 "PSMN1R1" H 14950 2750 60  0001 C CNN "Part Number"
 	1    14950 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5BBA9147
+P 9200 2950
+F 0 "Q?" H 9400 3000 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 9400 2900 50  0001 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 9400 3050 50  0001 C CNN
+F 3 "" H 9200 2950 50  0001 C CNN
+F 4 "PSMN1R1" H 9200 2950 60  0001 C CNN "Part Number"
+	1    9200 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 6700 0    50   Input ~ 0
++5V
+Wire Wire Line
+	6550 6950 6750 6950
+Wire Wire Line
+	6750 6950 6750 7000
+Connection ~ 6550 6950
+Wire Wire Line
+	6550 6950 6550 6700
+Wire Wire Line
+	6550 6700 6500 6700
+$Comp
+L Device:D_Zener D?
+U 1 1 5BC50F38
+P 4750 6700
+F 0 "D?" H 4750 6800 50  0000 C CNN
+F 1 "5V" H 4750 6600 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123" H 4750 6700 50  0001 C CNN
+F 3 "" H 4750 6700 50  0001 C CNN
+F 4 "BZT52C5V1-FDICT-ND" H 4750 6700 60  0001 C CNN "Part Number"
+	1    4750 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4600 6700 0    50   Input ~ 0
++5V
+Wire Wire Line
+	4950 6950 4950 6700
+Wire Wire Line
+	4950 6700 4900 6700
+Connection ~ 4950 6950
+Wire Wire Line
+	4950 6950 5150 6950
+Wire Wire Line
+	5150 6950 5150 7000
 $EndSCHEMATC
