@@ -1545,7 +1545,7 @@ F 4 "CKN9088CT-ND" H 4600 5750 60  0001 C CNN "Part Number"
 $EndComp
 Text GLabel 4850 5200 0    60   UnSpc ~ 0
 Power_GND
-Text GLabel 5700 3900 2    60   Input ~ 0
+Text GLabel 5700 4100 2    60   Input ~ 0
 Conn_GND
 Text GLabel 5250 5300 2    60   Output ~ 0
 Conn_GND
@@ -2234,8 +2234,8 @@ L transistors:2N2219 Q2
 U 1 1 5B3E4E66
 P 8800 2950
 F 0 "Q2" H 8800 3100 50  0000 L CNN
-F 1 "2N2219" H 8600 2800 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-39-3" H 9000 2875 50  0001 L CIN
+F 1 "MBT3904" H 8600 2800 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9000 2875 50  0001 L CIN
 F 3 "" H 8800 2950 50  0001 L CNN
 	1    8800 2950
 	1    0    0    -1  
@@ -2285,7 +2285,7 @@ F 3 "" H 8350 2600 50  0001 C CNN
 	1    8350 2600
 	0    1    1    0   
 $EndComp
-Text GLabel 5700 3600 2    60   Output ~ 0
+Text GLabel 5700 3800 2    60   Output ~ 0
 V+
 Wire Notes Line
 	7200 3650 9700 3650
@@ -2597,23 +2597,12 @@ Wire Wire Line
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
 U 1 1 5BB3DDFC
-P 5300 4000
-F 0 "Conn3" H 5506 4387 60  0000 C CNN
-F 1 "AndersonPP" H 5506 4281 60  0000 C CNN
-F 2 "" H 5150 3450 60  0001 C CNN
-F 3 "" H 5150 3450 60  0001 C CNN
-	1    5300 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn3
-U 2 1 5BB3DF96
-P 5300 3700
-F 0 "Conn3" H 5506 4087 60  0000 C CNN
-F 1 "AndersonPP" H 5506 3981 60  0000 C CNN
-F 2 "" H 5150 3150 60  0001 C CNN
-F 3 "" H 5150 3150 60  0001 C CNN
-	2    5300 3700
+P 5300 4200
+F 0 "Conn3" H 5506 4587 60  0000 C CNN
+F 1 "AndersonPP" H 5506 4481 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 5150 3650 60  0001 C CNN
+F 3 "" H 5150 3650 60  0001 C CNN
+	1    5300 4200
 	1    0    0    -1  
 $EndComp
 Text GLabel 5600 5750 0    60   Input ~ 0
@@ -2809,10 +2798,10 @@ F 4 "PSMN1R1" H 14950 2750 60  0001 C CNN "Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q?
+L Device:Q_NMOS_GDS Q3
 U 1 1 5BBA9147
 P 9200 2950
-F 0 "Q?" H 9400 3000 50  0000 L CNN
+F 0 "Q3" H 9400 3000 50  0000 L CNN
 F 1 "Q_NMOS_GDS" H 9400 2900 50  0001 L CNN
 F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 9400 3050 50  0001 C CNN
 F 3 "" H 9200 2950 50  0001 C CNN
@@ -2832,10 +2821,10 @@ Wire Wire Line
 Wire Wire Line
 	6550 6700 6500 6700
 $Comp
-L Device:D_Zener D?
+L Device:D_Zener D8
 U 1 1 5BC50F38
 P 4750 6700
-F 0 "D?" H 4750 6800 50  0000 C CNN
+F 0 "D8" H 4750 6800 50  0000 C CNN
 F 1 "5V" H 4750 6600 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 4750 6700 50  0001 C CNN
 F 3 "" H 4750 6700 50  0001 C CNN
@@ -2862,4 +2851,15 @@ Text GLabel 13550 3950 0    60   Input ~ 0
 V+
 Text GLabel 14350 3950 2    60   Input ~ 0
 V+
+$Comp
+L MRDT_Connectors:AndersonPP Conn3
+U 2 1 5BB3DF96
+P 5300 3900
+F 0 "Conn3" H 5506 4287 60  0000 C CNN
+F 1 "AndersonPP" H 5506 4181 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 5150 3350 60  0001 C CNN
+F 3 "" H 5150 3350 60  0001 C CNN
+	2    5300 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
