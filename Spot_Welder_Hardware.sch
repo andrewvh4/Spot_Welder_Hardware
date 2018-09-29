@@ -848,10 +848,6 @@ F 3 "" H 14800 2400 50  0001 C CNN
 $EndComp
 Text GLabel 9950 2250 0    60   Output ~ 0
 V+
-Text GLabel 11850 4000 2    60   Input ~ 0
-VIN
-Text GLabel 11050 4000 0    60   Input ~ 0
-VIN
 Text GLabel 11850 4300 2    60   UnSpc ~ 0
 GND
 Text GLabel 11050 4200 0    60   Input ~ 0
@@ -1607,10 +1603,6 @@ F 3 "" H 13550 4250 60  0001 C CNN
 	1    13750 4300
 	1    0    0    -1  
 $EndComp
-Text GLabel 14350 3950 2    60   Input ~ 0
-VIN
-Text GLabel 13550 3950 0    60   Input ~ 0
-VIN
 Text GLabel 14350 4250 2    60   UnSpc ~ 0
 GND
 Text GLabel 13550 4150 0    60   Input ~ 0
@@ -2862,4 +2854,12 @@ Wire Wire Line
 	4950 6950 5150 6950
 Wire Wire Line
 	5150 6950 5150 7000
+Text GLabel 11050 4000 0    60   Input ~ 0
+V+
+Text GLabel 11850 4000 2    60   Input ~ 0
+V+
+Text GLabel 13550 3950 0    60   Input ~ 0
+V+
+Text GLabel 14350 3950 2    60   Input ~ 0
+V+
 $EndSCHEMATC
