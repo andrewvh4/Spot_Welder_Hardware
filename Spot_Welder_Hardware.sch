@@ -2808,18 +2808,6 @@ Wire Wire Line
 	6550 6950 6550 6700
 Wire Wire Line
 	6550 6700 6500 6700
-$Comp
-L Device:D_Zener D8
-U 1 1 5BC50F38
-P 4750 6700
-F 0 "D8" H 4750 6800 50  0000 C CNN
-F 1 "5V" H 4750 6600 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 4750 6700 50  0001 C CNN
-F 3 "" H 4750 6700 50  0001 C CNN
-F 4 "BZT52C5V1-FDICT-ND" H 4750 6700 60  0001 C CNN "Part Number"
-	1    4750 6700
-	1    0    0    -1  
-$EndComp
 Text GLabel 4600 6700 0    50   Input ~ 0
 +5V
 Wire Wire Line
@@ -2864,6 +2852,17 @@ F 1 "D_Schottky" H 6350 6825 50  0000 C CNN
 F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 6700 50  0001 C CNN
 F 3 "~" H 6350 6700 50  0001 C CNN
 	1    6350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D8
+U 1 1 5BB5CE21
+P 4750 6700
+F 0 "D8" H 4850 6650 50  0000 C CNN
+F 1 "D_Schottky" H 4750 6825 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4750 6700 50  0001 C CNN
+F 3 "~" H 4750 6700 50  0001 C CNN
+	1    4750 6700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
