@@ -1,0 +1,53 @@
+Id,Designator,Package,Designation,,Item Name,Part Number,,,Vendor,Quantity,Cost Per Item,,Cost,,Comments,URL
+1,BZ1,BUZZER_SMI_1324_TW_5V_2_R,Buzzer,,Buzzer,668-1336-1-ND,,,Digikey,1,6.12,,6.12,,,https://www.digikey.com/products/en?keywords=668-1336-1-ND
+2,"C1,C2,C3,C4,C5,C6,C8,C9,C10,C12,C13,C14,C16,C17,C18,C20,C21,C22,C25,C26,C27,C29,C30,C31,C33,C34,C35,C36,C37,C38,C45",CP_Radial_D30.0mm_P10.00mm_SnapIn,47mF,,47mF Capacitor,565-2620-ND,,,Digikey,31,4.2,,130.2,,,https://www.digikey.com/products/en?keywords=565-2620-ND
+3,"C7,C11,C15,C19,C23,C24,C28,C32",C_0805_HandSoldering,C,,10uF 0603 Capacitor,490-10728-1-ND,,,Digikey,8,0.32,,2.56,,,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61C106KAALD/490-10728-1-ND/5251372
+4,"C39,C40,C46,C47,C48",C_0603_HandSoldering,.1uF,,.1uF 0603 Capacitor,1276-1258-1-ND,,,Digikey,5,0.1,,0.5,,,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10F104ZO8NNNC/1276-1258-1-ND/3889344
+5,"C41,C42",C_0603_HandSoldering,22pF,,22pF 0603 Capacitor,399-9031-1-ND,,,Digikey,2,0.1,,0.2,,,https://www.digikey.com/product-detail/en/kemet/C0603C220K4GACTU/399-9031-1-ND/3522548
+6,"C43,C44",C_0603_HandSoldering,10uF,,10uF 0603 Capacitor,490-10728-1-ND,,,Digikey,2,0.32,,0.64,,,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61C106KAALD/490-10728-1-ND/5251372
+7,"Conn1,Conn2",Banana_Jack_1Pin,BananaConnector,,,,,,Digikey,2,,,0,,,
+8,Conn3,Anderson_2_Horisontal_Side_by_Side,Anderson_2,,,,,,Digikey,1,,,0,,,
+9,Conn4,MOLEX_SL_3_Horizontal,Molex_SL_3,,Molex SL-3,WM4901-ND,,,Digikey,1,1.06,,1.06,,,https://www.digikey.com/product-detail/en/molex-llc/0705530002/WM4901-ND/114955
+10,D1,LED_0603_HandSoldering,5V,,LED 0603 Yellow,350-2032-1-ND,,,Digikey,1,0.51,,0.51,,,https://www.digikey.com/product-detail/en/dialight/5988040107F/350-2032-1-ND/1291336
+11,D2,LED_0603_HandSoldering,Pulse,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
+12,D3,LED_0603_HandSoldering,7.5V,,LED 0603 Yellow,350-2032-1-ND,,,Digikey,1,0.51,,0.51,,,https://www.digikey.com/product-detail/en/dialight/5988040107F/350-2032-1-ND/1291336
+13,D4,LED_0603_HandSoldering,Ext Trigger,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
+14,D5,LED_0603_HandSoldering,10V,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
+15,D6,LED_0603_HandSoldering,Logic,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
+16,D7,LED_0603_HandSoldering,12.5V,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
+17,"D8,D9",D_0603,Shottky,,Shottky Diode 0603,478-7798-1-ND,,,Digikey,1,46,,46,,,https://www.digikey.com/product-detail/en/avx-corporation/SD0603S040S0R2/478-7798-1-ND/3749483
+18,D10,D_SOD-123,15V,,15V Zener Diode,BZT52C15-FDICT-ND,,,Digikey,1,0.24,,0.24,,,https://www.digikey.com/products/en?keywords=BZT52C15-FDICT-ND
+19,D11,LED_0603_HandSoldering,Over Voltage,,LED 0603 Red,475-2512-1-ND,,,Digikey,1,0.38,,0.38,,,https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LS-Q976-NR-1/475-2512-1-ND/1802639
+20,D12,D_SOD-123,20V,,20V Shottkey Diode,B0520LW-FDICT-ND,,,Digikey,1,0.36,,0.36,,,https://www.digikey.com/products/en?keywords=B0520LW-FDICT-ND
+21,"D13,D14,D15,D16,D19",TO-220-2_Vertical,D,,Highspeed High Current Diode,MUR1560GOS-ND,,,Digikey,5,1.39,,6.95,,,https://www.digikey.com/products/en?keywords=MUR1560GOS-ND
+22,D17,LED_0603_HandSoldering,TX,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
+23,D18,LED_0603_HandSoldering,RX,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
+24,D20,LED_0603_HandSoldering,FTDI PWR,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
+25,J1,MiniUSB_SMT,Mini USB,,SMD Mini USB,151-1206-1-ND,,,Digikey,1,0.54,,0.54,,,https://www.digikey.com/product-detail/en/edac-inc/690-005-299-043/151-1206-1-ND/4312192
+26,J2,Pin_Header_Straight_1x03_Pitch2.54mm,Conn_01x03_Male,,,,,,Digikey,1,,,0,,,
+27,"L1,L2,L3,L4,L5,L6,L7,L8,L9,L10",L_0603_HandSoldering,Ferrite_Bead,,Ferrite Bead,732-1593-1-ND,,,Digikey,10,0.17,,1.7,,,https://www.digikey.com/products/en?keywords=732-1593-1-ND
+28,Q1,SOT-323_SC-70_Handsoldering,Q_NMOS_GSD,,2N7002PW,1727-4793-1-ND,,,Digikey,1,0.33,,0.33,,,https://www.digikey.com/product-detail/en/nexperia-usa-inc/2N7002PW115/1727-4793-1-ND/2531274
+29,Q2,SOT-23,MBT3904,,MBT3904 NPN BJT,MMBT3904TPMSTR-ND,,,Digikey,1,0.1,,0.1,,,https://www.digikey.com/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395
+30,"Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,Q13",TO-220-3_Vertical,Q_NMOS_GDS,,NMOSFET-PSMN1R1-30PL,1727-5291-ND,,,Digikey,11,3.39,,37.29,,,https://www.digikey.com/products/en?keywords=PSMN2R0-30PL
+31,"R1,R3,R5,R6,R7,R8,R9",R_0603_HandSoldering,500,,0603 Resistor 500,RHM510DCT-ND,,,Digikey,7,0.1,,0.7,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ511/RHM510DCT-ND/1762937
+32,"R2,R17,R22,R27,R33",R_0603_HandSoldering,10k,,0603 Resistor 10K,RHM10KADCT-ND,,,Digikey,5,0.1,,0.5,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPF1002/RHM10KADCT-ND/1983753
+33,"R4,R24,R25",R_0603_HandSoldering,1k,,0603 Resistor 1K,RHM1.0KDCT-ND,,,Digikey,3,0.1,,0.3,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ102/RHM1.0KDCT-ND/1762924
+34,"R10,R15",R_0603_HandSoldering,3000,,0603 Resistor 3K,MCT0603-3.00K-CFCT-ND,,,Digikey,2,0.18,,0.36,,,https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C3001FP500/MCT0603-3.00K-CFCT-ND/2607899
+35,"R11,R16, R39",R_0603_HandSoldering,1000,,0603 Resistor 1K,RHM1.0KDCT-ND,,,Digikey,3,0.1,,0.3,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ102/RHM1.0KDCT-ND/1762924
+36,"R12,R13,R14",R_Axial_Power_L25.0mm_W6.4mm_P30.48mm,5,,5 Ohm Resistor,YAG1224CT-ND,,,Digikey,3,0.72,,2.16,,,https://www.digikey.com/products/en?keywords=YAG1224CT-ND
+37,"R18,R20, R40",R_0603_HandSoldering,10K,,0603 Resistor 10K,RHM10KADCT-ND,,,Digikey,3,0.14,,0.42,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPF1002/RHM10KADCT-ND/1983753
+38,R19,R_0603_HandSoldering,1K,,0603 Resistor 1K,RHM1.0KDCT-ND,,,Digikey,1,0.1,,0.1,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ102/RHM1.0KDCT-ND/1762924
+39,R21,R_0603_HandSoldering,250,,0603 Resistor 250,P249BLCT-ND,,,Digikey,1,0.13,,0.13,,,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AED2490V/P249BLCT-ND/3481424
+40,"R23,R26,R28,R29,R30,R31,R32,R34,R36,R38",R_0603_HandSoldering,10,,0603 Resistor 10K,RHM10.0ADCT-ND,,,Digikey,10,0.12,,1.2,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPF10R0/RHM10.0ADCT-ND/1983755
+41,"R35,R37",R_0603_HandSoldering,330,,0603 Resistor 330,311-330HRCT-ND,,,Digikey,3,0.1,,0.3,,,https://www.digikey.com/product-detail/en/yageo/RC0603FR-07330RL/311-330HRCT-ND/730109
+42,"SW1,SW4",SPST_Pushbutton,SW_Push,,Pushbutton Switch,CKN9088CT-ND,,,Digikey,2,0.22,,0.44,,,https://www.digikey.com/products/en?keywords=CKN9088CT-ND
+43,SW2,SPDT_Switch,SW_SPDT,,SPDT Switch,CKN9628-ND,,,Digikey,1,5.34,,5.34,,,https://www.digikey.com/products/en?keywords=CKN9628-ND
+44,SW3,SPST_DIP_Switch,Lead Voltage Trigger,,SPST DIP Switch,CKN10358-ND,,,Digikey,1,1.19,,1.19,,,https://www.digikey.com/products/en?keywords=CKN10358-ND
+45,U1,OKI_Horisontal,OKI,,5V OKI,811-2692-ND,,,Digikey,1,4.3,,4.3,,,https://www.digikey.com/product-detail/en/murata-power-solutions-inc/OKI-78SR-5-1.5-W36H-C/811-2692-ND/3438675
+46,,,ATMEGA328P,,ATMEGA328PU,ATMEGA328-PU-ND,,,Digikey,1,1.96,,1.96,,,https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA328-PU/ATMEGA328-PU-ND/2271026
+47,U2,DIP-28_W7.62mm,,,ATMEGA 328 Housing,ED3050-5-ND,,,Digikey,1,0.33,,0.33,,,https://www.digikey.com/products/en?keywords=ED3050-5-ND
+48,"U3,U5",SOIC-8_3.9x4.9mm_Pitch1.27mm,FAN3122TMXCT-ND,,GateDriver,FAN3122TMXCT-ND,,,Digikey,2,1.61,,3.22,,,https://www.digikey.com/products/en?keywords=FAN3122TMXCT-ND
+49,U4,SSOP-28_5.3x10.2mm_Pitch0.65mm,FT232RL,,FTDI,FT232RL,,,Digikey,1,4.5,,4.5,,,https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402
+50,Y1,Crystal_SMD_HC49-SD_HandSoldering,Crystal,,8MHz Crystal,XC1592CT-ND,,,Digikey,1,1.71,,1.71,,,https://www.digikey.com/products/en?keywords=XC1592CT-ND
+51,,,,,PCB,,,,JLCPCB,1,6,,6,,,
+Total,,,,,,,,,,,,,211.42,,,
