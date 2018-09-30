@@ -1012,18 +1012,6 @@ Text GLabel 6200 7400 0    60   UnSpc ~ 0
 GND
 Text GLabel 6750 7000 3    60   Output ~ 0
 V_Sense
-$Comp
-L Device:D_Zener D9
-U 1 1 5B33E128
-P 6350 6700
-F 0 "D9" H 6350 6800 50  0000 C CNN
-F 1 "5V" H 6350 6600 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123" H 6350 6700 50  0001 C CNN
-F 3 "" H 6350 6700 50  0001 C CNN
-F 4 "BZT52C5V1-FDICT-ND" H 6350 6700 60  0001 C CNN "Part Number"
-	1    6350 6700
-	1    0    0    -1  
-$EndComp
 Text GLabel 2250 6200 0    60   Input ~ 0
 5V_Ind
 $Comp
@@ -2867,4 +2855,15 @@ Wire Wire Line
 Connection ~ 8900 3450
 Wire Wire Line
 	8900 3450 9300 3450
+$Comp
+L Device:D_Schottky D9
+U 1 1 5BB3740A
+P 6350 6700
+F 0 "D9" H 6450 6650 50  0000 C CNN
+F 1 "D_Schottky" H 6350 6825 50  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6350 6700 50  0001 C CNN
+F 3 "~" H 6350 6700 50  0001 C CNN
+	1    6350 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
