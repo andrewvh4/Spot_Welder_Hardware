@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 2.54)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.762)
@@ -253,7 +253,7 @@
   )
 
   (module "Project Library:6-32 Screw Hole" (layer F.Cu) (tedit 5BB1550E) (tstamp 5BB16194)
-    (at 10.16 198.12 90)
+    (at 11.43 199.39 90)
     (fp_text reference REF** (at 0 0.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -263,8 +263,8 @@
     (pad "" np_thru_hole circle (at 6.604 9.144 90) (size 3.683 3.683) (drill 0.762) (layers *.Cu *.Mask))
   )
 
-  (module "Project Library:6-32 Screw Hole" (layer F.Cu) (tedit 5BB154FA) (tstamp 5BB1617A)
-    (at 19.304 18.796)
+  (module "Project Library:6-32 Screw Hole" (layer F.Cu) (tedit 5BB154FA) (tstamp 5BB1962C)
+    (at 20.574 17.526)
     (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -275,7 +275,7 @@
   )
 
   (module "Project Library:6-32 Screw Hole" (layer F.Cu) (tedit 5BB15509) (tstamp 5BB16137)
-    (at 275.844 191.516 180)
+    (at 274.574 192.786 180)
     (fp_text reference REF** (at 0 0.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -20720,8 +20720,8 @@
     )
   )
 
-  (module "Project Library:6-32 Screw Hole" (layer F.Cu) (tedit 5BB15496) (tstamp 5BAF8EF7)
-    (at 277.876 18.542 270)
+  (module "Project Library:6-32 Screw Hole" (layer F.Cu) (tedit 5BB15496) (tstamp 5BB1953A)
+    (at 276.606 17.272 270)
     (fp_text reference REF** (at 0 0.5 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -21200,18 +21200,18 @@
     )
   )
 
-  (gr_line (start 14.224 18.796) (end 14.224 191.516) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 19.304 196.596) (end 277.876 196.596) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 19.304 191.516) (end 14.224 191.516) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BB16193))
-  (gr_circle (center 19.304 191.516) (end 14.224 191.516) (layer F.SilkS) (width 0.2) (tstamp 5BB16192))
-  (gr_line (start 277.876 13.462) (end 19.304 13.716) (layer Edge.Cuts) (width 0.15))
-  (gr_circle (center 19.304 18.796) (end 19.304 13.716) (layer F.SilkS) (width 0.2) (tstamp 5BB1617F))
-  (gr_arc (start 19.304 18.796) (end 19.304 13.716) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BB1617E))
-  (gr_line (start 282.956 191.516) (end 282.956 18.542) (layer Edge.Cuts) (width 0.15))
-  (gr_circle (center 277.876 191.516) (end 277.876 196.596) (layer F.SilkS) (width 0.2) (tstamp 5BB1613C))
-  (gr_arc (start 277.876 191.516) (end 277.876 196.596) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BB1613B))
-  (gr_circle (center 277.876 18.542) (end 282.956 18.542) (layer F.SilkS) (width 0.2))
-  (gr_arc (start 277.876 18.542) (end 282.956 18.542) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BB15554))
+  (gr_arc (start 276.606 192.786) (end 276.606 196.596) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 20.574 196.596) (end 276.606 196.596) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 20.574 192.786) (end 16.764 192.786) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 16.764 17.526) (end 16.764 192.786) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 20.574 17.526) (end 20.574 13.716) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 20.574 13.716) (end 276.606 13.716) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 280.416 17.526) (end 280.416 192.786) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 276.606 17.526) (end 280.416 17.526) (angle -90) (layer Edge.Cuts) (width 0.15))
+  (gr_circle (center 20.574 192.786) (end 24.384 192.786) (layer F.SilkS) (width 0.2) (tstamp 5BB16192))
+  (gr_circle (center 20.574 17.526) (end 24.384 17.526) (layer F.SilkS) (width 0.2) (tstamp 5BB19635))
+  (gr_circle (center 276.606 192.786) (end 280.416 192.786) (layer F.SilkS) (width 0.2) (tstamp 5BB1613C))
+  (gr_circle (center 276.606 17.526) (end 280.416 17.526) (layer F.SilkS) (width 0.2))
   (gr_text DTR (at 71.628 188.976) (layer F.SilkS) (tstamp 5BC696FE)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
