@@ -1,4 +1,10 @@
 ---ToDo---
-Create PCB
-Finalize BOM
-Generate Gerbs
+Fix Silkscreen
+	Label Over Voltage LED
+	Re-Label pulse in LEDs
+Fix Corner Holes
+\Fix ferrite bead silkscreen
+Fix switch silkscreen
+Figure out what's wrong with voltage trigger
+	Use voltage buffer with Zener Diode
+FIX OPEN Drain Problem
