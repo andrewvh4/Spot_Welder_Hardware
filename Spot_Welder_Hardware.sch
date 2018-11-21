@@ -1178,7 +1178,7 @@ F 3 "" H 10750 4250 50  0001 C CNN
 $EndComp
 Text GLabel 11250 4450 2    60   UnSpc ~ 0
 GND
-Text GLabel 4800 5750 2    60   Output ~ 0
+Text GLabel 4850 5750 2    60   Output ~ 0
 Pulse_Out
 Text GLabel 4400 5750 0    60   Input ~ 0
 +5V
@@ -1578,7 +1578,7 @@ Text Notes 2700 4900 0    60   ~ 0
 External Trigger
 Text Notes 2050 4900 0    60   ~ 0
 Trigger
-Text Notes 5000 6150 0    118  ~ 24
+Text Notes 5000 6250 0    118  ~ 24
 Voltage Read
 $Comp
 L ProjectLibrary:FAN3122TMXCT-ND U5
@@ -1705,8 +1705,6 @@ Wire Wire Line
 	12550 6250 12600 6250
 Wire Wire Line
 	12500 5850 12600 5850
-Wire Wire Line
-	6000 5750 6150 5750
 Wire Wire Line
 	2150 2700 2350 2700
 Wire Wire Line
@@ -2013,8 +2011,6 @@ Wire Notes Line
 Wire Notes Line
 	1850 7700 15300 7700
 Wire Notes Line
-	5650 6200 5650 7700
-Wire Notes Line
 	15300 7700 15300 1900
 Wire Notes Line
 	9700 1900 9700 4550
@@ -2140,10 +2136,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 5850 3750 5850
 Wire Notes Line
-	1850 5950 7200 5950
-Wire Notes Line
-	4100 6200 7200 6200
-Wire Notes Line
 	4100 7200 1850 7200
 Text GLabel 10400 7100 2    60   Output ~ 0
 Buzzer
@@ -2196,8 +2188,6 @@ Wire Wire Line
 	3550 7300 3800 7300
 Connection ~ 2400 7300
 Connection ~ 2400 7600
-Wire Notes Line
-	5350 5950 5350 5500
 Wire Notes Line
 	4100 5500 7200 5500
 $Comp
@@ -2869,4 +2859,49 @@ Wire Wire Line
 	5650 3800 5700 3800
 Wire Wire Line
 	5650 4100 5700 4100
+$Comp
+L Device:R R?
+U 1 1 5BFB6918
+P 4950 5900
+F 0 "R?" V 5050 5900 50  0000 C CNN
+F 1 "1000" V 4950 5900 50  0000 C CNN
+F 2 "" V 4880 5900 50  0001 C CNN
+F 3 "~" H 4950 5900 50  0001 C CNN
+	1    4950 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 5900 4800 5750
+Text GLabel 5150 5900 2    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	5100 5900 5150 5900
+Wire Wire Line
+	4800 5750 4850 5750
+Connection ~ 4800 5750
+Wire Notes Line
+	4100 6050 7200 6050
+Wire Notes Line
+	5350 5500 5350 6050
+Wire Notes Line
+	4100 6300 7200 6300
+$Comp
+L Device:R R?
+U 1 1 5C0EED75
+P 6300 5900
+F 0 "R?" V 6400 5900 50  0000 C CNN
+F 1 "1000" V 6300 5900 50  0000 C CNN
+F 2 "" V 6230 5900 50  0001 C CNN
+F 3 "~" H 6300 5900 50  0001 C CNN
+	1    6300 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 5900 6150 5750
+Text GLabel 6500 5900 2    60   UnSpc ~ 0
+GND
+Wire Wire Line
+	6450 5900 6500 5900
+Wire Wire Line
+	6000 5750 6150 5750
 $EndSCHEMATC
