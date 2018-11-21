@@ -2585,12 +2585,12 @@ Wire Wire Line
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
 U 1 1 5BB3DDFC
-P 5300 4200
-F 0 "Conn3" H 5506 4587 60  0000 C CNN
-F 1 "AndersonPP" H 5506 4481 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 5150 3650 60  0001 C CNN
-F 3 "" H 5150 3650 60  0001 C CNN
-	1    5300 4200
+P 5250 4200
+F 0 "Conn3" H 5456 4587 60  0001 C CNN
+F 1 "AndersonPP" H 5456 4481 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 5100 3650 60  0001 C CNN
+F 3 "" H 5100 3650 60  0001 C CNN
+	1    5250 4200
 	1    0    0    -1  
 $EndComp
 Text GLabel 5600 5750 0    60   Input ~ 0
@@ -2830,12 +2830,12 @@ V+
 $Comp
 L MRDT_Connectors:AndersonPP Conn3
 U 2 1 5BB3DF96
-P 5300 3900
-F 0 "Conn3" H 5506 4287 60  0000 C CNN
-F 1 "AndersonPP" H 5506 4181 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 5150 3350 60  0001 C CNN
-F 3 "" H 5150 3350 60  0001 C CNN
-	2    5300 3900
+P 5250 3900
+F 0 "Conn3" H 5456 4287 60  0000 C CNN
+F 1 "AndersonPP" H 5456 4181 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horisontal_Side_by_Side" H 5100 3350 60  0001 C CNN
+F 3 "" H 5100 3350 60  0001 C CNN
+	2    5250 3900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2865,4 +2865,8 @@ F 3 "~" H 4750 6700 50  0001 C CNN
 	1    4750 6700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5650 3800 5700 3800
+Wire Wire Line
+	5650 4100 5700 4100
 $EndSCHEMATC
