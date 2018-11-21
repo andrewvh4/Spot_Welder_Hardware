@@ -1570,7 +1570,7 @@ Text Label 8350 3850 0    60   ~ 0
 Vin
 Text Notes 8250 3750 0    60   ~ 0
 Logic Power
-Text Notes 4600 4900 0    60   ~ 0
+Text Notes 4900 4950 0    60   ~ 0
 On/Off
 Text Notes 3650 4900 0    60   ~ 0
 Power
@@ -2859,17 +2859,6 @@ Wire Wire Line
 	5650 3800 5700 3800
 Wire Wire Line
 	5650 4100 5700 4100
-$Comp
-L Device:R R?
-U 1 1 5BFB6918
-P 4950 5900
-F 0 "R?" V 5050 5900 50  0000 C CNN
-F 1 "1000" V 4950 5900 50  0000 C CNN
-F 2 "" V 4880 5900 50  0001 C CNN
-F 3 "~" H 4950 5900 50  0001 C CNN
-	1    4950 5900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4800 5900 4800 5750
 Text GLabel 5150 5900 2    60   UnSpc ~ 0
@@ -2886,12 +2875,12 @@ Wire Notes Line
 Wire Notes Line
 	4100 6300 7200 6300
 $Comp
-L Device:R R?
+L Device:R R42
 U 1 1 5C0EED75
 P 6300 5900
-F 0 "R?" V 6400 5900 50  0000 C CNN
+F 0 "R42" V 6400 5900 50  0000 C CNN
 F 1 "1000" V 6300 5900 50  0000 C CNN
-F 2 "" V 6230 5900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6230 5900 50  0001 C CNN
 F 3 "~" H 6300 5900 50  0001 C CNN
 	1    6300 5900
 	0    1    1    0   
@@ -2904,4 +2893,15 @@ Wire Wire Line
 	6450 5900 6500 5900
 Wire Wire Line
 	6000 5750 6150 5750
+$Comp
+L Device:R R41
+U 1 1 5C17CF99
+P 4950 5900
+F 0 "R41" V 5050 5900 50  0000 C CNN
+F 1 "1000" V 4950 5900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4880 5900 50  0001 C CNN
+F 3 "~" H 4950 5900 50  0001 C CNN
+	1    4950 5900
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
