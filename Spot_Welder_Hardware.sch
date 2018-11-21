@@ -1293,13 +1293,13 @@ Text GLabel 10400 7400 2    60   Input ~ 0
 Lead_Voltage_Trigger
 Text Notes 6750 5900 0    20   ~ 0
 Used to toggle\nlead voltage trigger mode
-Text GLabel 10400 5200 2    60   Input ~ 0
+Text GLabel 10400 5200 2    60   Output ~ 0
 5V_Ind
-Text GLabel 10400 5300 2    60   Input ~ 0
+Text GLabel 10400 5300 2    60   Output ~ 0
 7.5V_Ind
-Text GLabel 10400 5400 2    60   Input ~ 0
+Text GLabel 10400 5400 2    60   Output ~ 0
 10V_Ind
-Text GLabel 10400 5500 2    60   Input ~ 0
+Text GLabel 10400 5500 2    60   Output ~ 0
 12.5V_Ind
 Text Notes 10900 5550 0    60   ~ 0
 D12

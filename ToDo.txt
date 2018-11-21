@@ -8,3 +8,5 @@ Fix switch silkscreen
 Figure out what's wrong with voltage trigger
 	Use voltage buffer with Zener Diode
 FIX OPEN Drain Problem
+Pull Down resistor on lead V Trigger
+Check I through pulse switch
