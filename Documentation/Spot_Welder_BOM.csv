@@ -1,28 +1,20 @@
 Id,Designator,Package,Designation,,Item Name,Part Number,,,Vendor,Quantity,Cost Per Item,,Cost,,Comments,URL
 1,BZ1,BUZZER_SMI_1324_TW_5V_2_R,Buzzer,,Buzzer,668-1336-1-ND,,,Digikey,1,6.12,,6.12,,,https://www.digikey.com/products/en?keywords=668-1336-1-ND
 2,"C1,C2,C3,C4,C5,C6,C8,C9,C10,C12,C13,C14,C16,C17,C18,C20,C21,C22,C25,C26,C27,C29,C30,C31,C33,C34,C35,C36,C37,C38,C45",CP_Radial_D30.0mm_P10.00mm_SnapIn,47mF,,47mF Capacitor,565-2620-ND,,,Digikey,31,4.2,,130.2,,,https://www.digikey.com/products/en?keywords=565-2620-ND
-3,"C7,C11,C15,C19,C23,C24,C28,C32",C_0805_HandSoldering,C,,10uF 0603 Capacitor,490-10728-1-ND,,,Digikey,8,0.32,,2.56,,,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61C106KAALD/490-10728-1-ND/5251372
-4,"C39,C40,C46,C47,C48",C_0603_HandSoldering,.1uF,,.1uF 0603 Capacitor,1276-1258-1-ND,,,Digikey,5,0.1,,0.5,,,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10F104ZO8NNNC/1276-1258-1-ND/3889344
-5,"C41,C42",C_0603_HandSoldering,22pF,,22pF 0603 Capacitor,399-9031-1-ND,,,Digikey,2,0.1,,0.2,,,https://www.digikey.com/product-detail/en/kemet/C0603C220K4GACTU/399-9031-1-ND/3522548
+3,"C7,C11,C15,C19,C23,C24,C28,C32",C_0805_HandSoldering,C,,CAP CER 10UF 10V X5R 0805,399-4925-1-ND,,,Digikey,8,0.16,,1.28,,,https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920
+4,"C39,C40,C46,C47,C48",C_0603_HandSoldering,.1uF,,.1uF 0603 Capacitor,399-1100-1-ND,,,Digikey,5,0.1,,0.5,,,https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375
+5,"C41,C42",C_0603_HandSoldering,22pF,,22pF 0603 Capacitor,399-7874-1-ND,,,Digikey,2,0.1,,0.2,,,https://www.digikey.com/product-detail/en/kemet/C0603C220J1GACTU/399-7874-1-ND/3471597
 6,"C43,C44",C_0603_HandSoldering,10uF,,10uF 0603 Capacitor,490-10728-1-ND,,,Digikey,2,0.32,,0.64,,,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61C106KAALD/490-10728-1-ND/5251372
 7,"Conn1,Conn2",Banana_Jack_1Pin,BananaConnector,,,,,,Digikey,2,,,0,,,
 8,Conn3,Anderson_2_Horisontal_Side_by_Side,Anderson_2,,,,,,Digikey,1,,,0,,,
 9,Conn4,MOLEX_SL_3_Horizontal,Molex_SL_3,,Molex SL-3,WM4901-ND,,,Digikey,1,1.06,,1.06,,,https://www.digikey.com/product-detail/en/molex-llc/0705530002/WM4901-ND/114955
-10,D1,LED_0603_HandSoldering,5V,,LED 0603 Yellow,350-2032-1-ND,,,Digikey,1,0.51,,0.51,,,https://www.digikey.com/product-detail/en/dialight/5988040107F/350-2032-1-ND/1291336
-11,D2,LED_0603_HandSoldering,Pulse,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
-12,D3,LED_0603_HandSoldering,7.5V,,LED 0603 Yellow,350-2032-1-ND,,,Digikey,1,0.51,,0.51,,,https://www.digikey.com/product-detail/en/dialight/5988040107F/350-2032-1-ND/1291336
-13,D4,LED_0603_HandSoldering,Ext Trigger,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
-14,D5,LED_0603_HandSoldering,10V,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
-15,D6,LED_0603_HandSoldering,Logic,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
-16,D7,LED_0603_HandSoldering,12.5V,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
+10,"D1, D3",LED_0603_HandSoldering,5V,,LED 0603 Yellow,350-2032-1-ND,,,Digikey,2,0.51,,1.02,,,https://www.digikey.com/product-detail/en/dialight/5988040107F/350-2032-1-ND/1291336
+11,"D2, D4, D5, D6, D7, D17, D18, D20",LED_0603_HandSoldering,Pulse,,LED 0603 Green,160-1443-1-ND,,,Digikey,8,0.23,,1.84,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191GKT/160-1443-1-ND/386828
 17,"D8,D9",D_0603,Shottky,,Shottky Diode 0603,478-7798-1-ND,,,Digikey,1,46,,46,,,https://www.digikey.com/product-detail/en/avx-corporation/SD0603S040S0R2/478-7798-1-ND/3749483
 18,D10,D_SOD-123,14V,,DIODE ZENER 14V 500MW SOD123,MMSZ5244BT1GOSCT-ND,,,Digikey,1,0.21,,0.21,,,https://www.digikey.com/product-detail/en/on-semiconductor/MMSZ5244BT1G/MMSZ5244BT1GOSCT-ND/1139898
 19,D11,LED_0603_HandSoldering,Over Voltage,,LED 0603 Red,475-2512-1-ND,,,Digikey,1,0.38,,0.38,,,https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LS-Q976-NR-1/475-2512-1-ND/1802639
 20,D12,D_SOD-123,20V,,20V Shottkey Diode,B0520LW-FDICT-ND,,,Digikey,1,0.36,,0.36,,,https://www.digikey.com/products/en?keywords=B0520LW-FDICT-ND
 21,"D13,D14,D15,D16,D19",TO-220-2_Vertical,D,,Highspeed High Current Diode,MUR1560GOS-ND,,,Digikey,5,1.39,,6.95,,,https://www.digikey.com/products/en?keywords=MUR1560GOS-ND
-22,D17,LED_0603_HandSoldering,TX,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
-23,D18,LED_0603_HandSoldering,RX,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
-24,D20,LED_0603_HandSoldering,FTDI PWR,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
 25,J1,MiniUSB_SMT,Mini USB,,SMD Mini USB,151-1206-1-ND,,,Digikey,1,0.54,,0.54,,,https://www.digikey.com/product-detail/en/edac-inc/690-005-299-043/151-1206-1-ND/4312192
 26,J2,Pin_Header_Straight_1x03_Pitch2.54mm,Conn_01x03_Male,,,,,,Digikey,1,,,0,,,
 27,"L1,L2,L3,L4,L5,L6,L7,L8,L9,L10",L_0603_HandSoldering,Ferrite_Bead,,Ferrite Bead,732-1593-1-ND,,,Digikey,10,0.17,,1.7,,,https://www.digikey.com/products/en?keywords=732-1593-1-ND
