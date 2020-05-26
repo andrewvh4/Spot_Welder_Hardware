@@ -1,7 +1,7 @@
 Id,Designator,Package,Designation,,Item Name,Part Number,,,Vendor,Quantity,Cost Per Item,,Cost,,Comments,URL
 1,BZ1,BUZZER_SMI_1324_TW_5V_2_R,Buzzer,,Buzzer,668-1336-1-ND,,,Digikey,1,6.12,,6.12,,,https://www.digikey.com/products/en?keywords=668-1336-1-ND
 2,"C1,C2,C3,C4,C5,C6,C8,C9,C10,C12,C13,C14,C16,C17,C18,C20,C21,C22,C25,C26,C27,C29,C30,C31,C33,C34,C35,C36,C37,C38,C45",CP_Radial_D30.0mm_P10.00mm_SnapIn,47mF,,47mF Capacitor,565-2620-ND,,,Digikey,31,4.2,,130.2,,,https://www.digikey.com/products/en?keywords=565-2620-ND
-3,"C7,C11,C15,C19,C23,C24,C28,C32",C_0805_HandSoldering,C,,CAP CER 10UF 10V X5R 0805,399-4925-1-ND,,,Digikey,8,0.16,,1.28,,,https://www.digikey.com/product-detail/en/kemet/C0805C106K8PACTU/399-4925-1-ND/1090920
+3,"C7,C11,C15,C19,C23,C24,C28,C32",C_0805_HandSoldering,C,,10uF 0805 Capacitor,399-8012-1-ND,,,Digikey,8,0.19,,1.28,,,https://www.digikey.com/product-detail/en/kemet/C0805C106K4PACTU/399-8012-1-ND/3471735
 4,"C39,C40,C46,C47,C48",C_0603_HandSoldering,.1uF,,.1uF 0603 Capacitor,399-1100-1-ND,,,Digikey,5,0.1,,0.5,,,https://www.digikey.com/product-detail/en/kemet/C0603C104Z3VACTU/399-1100-1-ND/411375
 5,"C41,C42",C_0603_HandSoldering,22pF,,22pF 0603 Capacitor,399-7874-1-ND,,,Digikey,2,0.1,,0.2,,,https://www.digikey.com/product-detail/en/kemet/C0603C220J1GACTU/399-7874-1-ND/3471597
 6,"C43,C44",C_0603_HandSoldering,10uF,,10uF 0603 Capacitor,490-10728-1-ND,,,Digikey,2,0.32,,0.64,,,https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R61C106KAALD/490-10728-1-ND/5251372
