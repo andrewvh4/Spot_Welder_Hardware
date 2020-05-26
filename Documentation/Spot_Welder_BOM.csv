@@ -16,7 +16,7 @@ Id,Designator,Package,Designation,,Item Name,Part Number,,,Vendor,Quantity,Cost 
 15,D6,LED_0603_HandSoldering,Logic,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
 16,D7,LED_0603_HandSoldering,12.5V,,LED 0603 Green,160-1446-1-ND,,,Digikey,1,0.29,,0.29,,,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834
 17,"D8,D9",D_0603,Shottky,,Shottky Diode 0603,478-7798-1-ND,,,Digikey,1,46,,46,,,https://www.digikey.com/product-detail/en/avx-corporation/SD0603S040S0R2/478-7798-1-ND/3749483
-18,D10,D_SOD-123,15V,,15V Zener Diode,BZT52C15-FDICT-ND,,,Digikey,1,0.24,,0.24,,,https://www.digikey.com/products/en?keywords=BZT52C15-FDICT-ND
+18,D10,D_SOD-123,14V,,DIODE ZENER 14V 500MW SOD123,MMSZ5244BT1GOSCT-ND,,,Digikey,1,0.21,,0.21,,,https://www.digikey.com/product-detail/en/on-semiconductor/MMSZ5244BT1G/MMSZ5244BT1GOSCT-ND/1139898
 19,D11,LED_0603_HandSoldering,Over Voltage,,LED 0603 Red,475-2512-1-ND,,,Digikey,1,0.38,,0.38,,,https://www.digikey.com/product-detail/en/osram-opto-semiconductors-inc/LS-Q976-NR-1/475-2512-1-ND/1802639
 20,D12,D_SOD-123,20V,,20V Shottkey Diode,B0520LW-FDICT-ND,,,Digikey,1,0.36,,0.36,,,https://www.digikey.com/products/en?keywords=B0520LW-FDICT-ND
 21,"D13,D14,D15,D16,D19",TO-220-2_Vertical,D,,Highspeed High Current Diode,MUR1560GOS-ND,,,Digikey,5,1.39,,6.95,,,https://www.digikey.com/products/en?keywords=MUR1560GOS-ND

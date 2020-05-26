@@ -1187,7 +1187,7 @@ Trigger Override
 Text Notes 5150 4750 0    118  ~ 24
 Interface
 $Comp
-L switches:SW_SPST SW3
+L Switch:SW_SPST SW3
 U 1 1 5B37438C
 P 5800 5750
 F 0 "SW3" H 5800 5875 50  0000 C CNN
@@ -1323,7 +1323,7 @@ F 3 "" H 12250 7500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x05 J1
+L Connector:Conn_01x05_Male J1
 U 1 1 5B3A46C1
 P 6500 3850
 F 0 "J1" H 6500 4150 50  0000 C CNN
@@ -1332,7 +1332,7 @@ F 2 "Project Library:MiniUSB_SMT" H 6500 3850 50  0001 C CNN
 F 3 "" H 6500 3850 50  0001 C CNN
 F 4 "151-1206-1-ND" H 6500 3850 60  0001 C CNN "Part Number"
 	1    6500 3850
-	-1   0    0    -1  
+	1    0    0    -1  
 $EndComp
 Text GLabel 6700 3650 2    60   Output ~ 0
 USB+5V
@@ -1520,7 +1520,7 @@ D6
 Text Notes 11400 7450 0    60   ~ 0
 D7
 $Comp
-L switches:SW_Push SW1
+L Switch:SW_Push SW1
 U 1 1 5B36DB85
 P 4600 5750
 F 0 "SW1" H 4650 5850 50  0000 L CNN
@@ -2015,7 +2015,7 @@ Wire Notes Line
 Wire Notes Line
 	9700 1900 9700 4550
 $Comp
-L switches:SW_SPDT SW2
+L Switch:SW_SPDT SW2
 U 1 1 5B3B77AE
 P 5050 5200
 F 0 "SW2" H 5050 5370 50  0000 C CNN
@@ -2208,7 +2208,7 @@ Wire Wire Line
 Text GLabel 7800 3450 0    60   UnSpc ~ 0
 Power_GND
 $Comp
-L transistors:2N2219 Q2
+L Transistor_BJT:MMBT3904 Q2
 U 1 1 5B3E4E66
 P 8800 2950
 F 0 "Q2" H 8800 3100 50  0000 L CNN
@@ -2223,7 +2223,7 @@ L Device:D_Zener D10
 U 1 1 5B3E57F7
 P 8050 2800
 F 0 "D10" H 8050 2900 50  0000 C CNN
-F 1 "15V" H 8050 2700 50  0000 C CNN
+F 1 "14V" H 8050 2700 50  0000 C CNN
 F 2 "Diodes_SMD:D_SOD-123" H 8050 2800 50  0001 C CNN
 F 3 "" H 8050 2800 50  0001 C CNN
 F 4 "BZT52C15-FDICT-ND" H 8050 2800 60  0001 C CNN "Part Number"
@@ -2308,7 +2308,7 @@ DTR
 Text GLabel 6650 3150 2    60   Output ~ 0
 DTR
 $Comp
-L conn:Conn_01x03_Male J2
+L Connector:Conn_01x03_Male J2
 U 1 1 5B598051
 P 6450 3050
 F 0 "J2" H 6450 3250 50  0001 C CNN
@@ -2867,7 +2867,6 @@ Wire Wire Line
 	5100 5900 5150 5900
 Wire Wire Line
 	4800 5750 4850 5750
-Connection ~ 4800 5750
 Wire Notes Line
 	4100 6050 7200 6050
 Wire Notes Line
@@ -2904,4 +2903,5 @@ F 3 "~" H 4950 5900 50  0001 C CNN
 	1    4950 5900
 	0    1    1    0   
 $EndComp
+NoConn ~ 6700 3950
 $EndSCHEMATC
