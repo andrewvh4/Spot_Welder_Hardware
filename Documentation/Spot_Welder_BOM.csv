@@ -22,15 +22,12 @@ Id,Designator,Package,Designation,,Item Name,Part Number,,,Vendor,Quantity,Cost 
 29,Q2,SOT-23,MBT3904,,MBT3904 NPN BJT,MMBT3904TPMSTR-ND,,,Digikey,1,0.1,,0.1,,,https://www.digikey.com/product-detail/en/micro-commercial-co/MMBT3904-TP/MMBT3904TPMSCT-ND/717395
 30,"Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10,Q11,Q12,Q13",TO-220-3_Vertical,Q_NMOS_GDS,,NMOSFET-PSMN1R1-30PL,1727-5291-ND,,,Digikey,11,3.39,,37.29,,,https://www.digikey.com/products/en?keywords=PSMN2R0-30PL
 31,"R1,R3,R5,R6,R7,R8,R9",R_0603_HandSoldering,500,,0603 Resistor 500,RHM510DCT-ND,,,Digikey,7,0.1,,0.7,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ511/RHM510DCT-ND/1762937
-32,"R2,R17,R22,R27,R33",R_0603_HandSoldering,10k,,0603 Resistor 10K,RHM10KADCT-ND,,,Digikey,5,0.1,,0.5,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPF1002/RHM10KADCT-ND/1983753
-33,"R4,R24,R25",R_0603_HandSoldering,1k,,0603 Resistor 1K,RHM1.0KDCT-ND,,,Digikey,3,0.1,,0.3,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ102/RHM1.0KDCT-ND/1762924
+32,"R2,R17,R22,R27,R33,R18,R20,R40",R_0603_HandSoldering,10k,,0603 Resistor 10K,RHM10KADCT-ND,,,Digikey,8,0.1,,0.8,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPF1002/RHM10KADCT-ND/1983753
+33,"R4,R24,R25,R11,R16 R39,R19",R_0603_HandSoldering,1k,,0603 Resistor 1K,RHM1.0KDCT-ND,,,Digikey,7,0.1,,0.7,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ102/RHM1.0KDCT-ND/1762924
 34,"R10,R15",R_0603_HandSoldering,3000,,0603 Resistor 3K,MCT0603-3.00K-CFCT-ND,,,Digikey,2,0.18,,0.36,,,https://www.digikey.com/product-detail/en/vishay-beyschlag/MCT06030C3001FP500/MCT0603-3.00K-CFCT-ND/2607899
-35,"R11,R16, R39",R_0603_HandSoldering,1000,,0603 Resistor 1K,RHM1.0KDCT-ND,,,Digikey,3,0.1,,0.3,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ102/RHM1.0KDCT-ND/1762924
 36,"R12,R13,R14",R_Axial_Power_L25.0mm_W6.4mm_P30.48mm,5,,5 Ohm Resistor,YAG1224CT-ND,,,Digikey,3,0.72,,2.16,,,https://www.digikey.com/products/en?keywords=YAG1224CT-ND
-37,"R18,R20, R40",R_0603_HandSoldering,10K,,0603 Resistor 10K,RHM10KADCT-ND,,,Digikey,3,0.14,,0.42,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPF1002/RHM10KADCT-ND/1983753
-38,R19,R_0603_HandSoldering,1K,,0603 Resistor 1K,RHM1.0KDCT-ND,,,Digikey,1,0.1,,0.1,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ102/RHM1.0KDCT-ND/1762924
 39,R21,R_0603_HandSoldering,250,,0603 Resistor 250,P249BLCT-ND,,,Digikey,1,0.13,,0.13,,,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AED2490V/P249BLCT-ND/3481424
-40,"R23,R26,R28,R29,R30,R31,R32,R34,R36,R38",R_0603_HandSoldering,10,,0603 Resistor 10K,RHM10.0ADCT-ND,,,Digikey,10,0.12,,1.2,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPF10R0/RHM10.0ADCT-ND/1983755
+40,"R23,R26,R28,R29,R30,R31,R32,R34,R36,R38",R_0603_HandSoldering,10,,0603 Resistor 10,RHM10.0ADCT-ND,,,Digikey,10,0.12,,1.2,,,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPF10R0/RHM10.0ADCT-ND/1983755
 41,"R35,R37",R_0603_HandSoldering,330,,0603 Resistor 330,311-330HRCT-ND,,,Digikey,3,0.1,,0.3,,,https://www.digikey.com/product-detail/en/yageo/RC0603FR-07330RL/311-330HRCT-ND/730109
 42,"SW1,SW4",SPST_Pushbutton,SW_Push,,Pushbutton Switch,CKN9088CT-ND,,,Digikey,2,0.22,,0.44,,,https://www.digikey.com/products/en?keywords=CKN9088CT-ND
 43,SW2,SPDT_Switch,SW_SPDT,,SPDT Switch,CKN9628-ND,,,Digikey,1,5.34,,5.34,,,https://www.digikey.com/products/en?keywords=CKN9628-ND
@@ -41,5 +38,5 @@ Id,Designator,Package,Designation,,Item Name,Part Number,,,Vendor,Quantity,Cost 
 48,"U3,U5",SOIC-8_3.9x4.9mm_Pitch1.27mm,FAN3122TMXCT-ND,,GateDriver,FAN3122TMXCT-ND,,,Digikey,2,1.61,,3.22,,,https://www.digikey.com/products/en?keywords=FAN3122TMXCT-ND
 49,U4,SSOP-28_5.3x10.2mm_Pitch0.65mm,FT232RL,,FTDI,FT232RL,,,Digikey,1,4.5,,4.5,,,https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402
 50,Y1,Crystal_SMD_HC49-SD_HandSoldering,Crystal,,8MHz Crystal,XC1592CT-ND,,,Digikey,1,1.71,,1.71,,,https://www.digikey.com/products/en?keywords=XC1592CT-ND
-51,,,,,PCB,,,,JLCPCB,1,6,,6,,,
-Total,,,,,,,,,,,,,211.42,,,
+51,,,,,PCB,,,,JLCPCB,1,20,,20,,,
+Total,,,,,,,,,,,,,286.06,,,
